@@ -622,7 +622,7 @@ img{
 .main-header .logo-box{
 	position:relative;
 	float: left;
-	padding:40px 0px;
+	padding:1.5rem 0px;
 	z-index:25;
 }
 
@@ -667,7 +667,7 @@ img{
 	line-height:30px;
 	opacity:1;
 	text-transform:uppercase;
-	padding:50px 0;
+	padding:3rem 0;
 	transition:all 500ms ease;
 	-moz-transition:all 500ms ease;
 	-webkit-transition:all 500ms ease;
@@ -846,7 +846,7 @@ img{
 .main-header .nav-outer .outer-box{
 	position: relative;
 	float: right;
-	padding: 42.5px 0;
+	padding: 2rem 0;
 	margin-left: 73px;
 
 }
@@ -1598,6 +1598,7 @@ img{
 	z-index:10;
 	overflow:hidden;
 	margin-top: 50px;
+	height: 50rem;
 }
 
 .main-slider .tp-caption{
@@ -1976,7 +1977,7 @@ img{
 
 .services-section-two{
 	position: relative;
-	padding: 115px 0 0;
+	padding:  0 0;
 }
 
 .services-section-two .content-column .inner-column{
@@ -2365,15 +2366,15 @@ img{
 }
 
 .fluid-section-one .image-column{
-	position:absolute;
-	float:left;
-	left:0px;
-	top:0px;
-	width:50%;
-	height:100%;
-	background-repeat:no-repeat;
-	background-position:center right;
-	background-size:cover;	
+	position: absolute;
+    float: left;
+    left: 32px;
+    top: 0px;
+    width: 50%;
+    height: 512px;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;	
 }
 
 .fluid-section-one .image-column .image-box{
@@ -2408,7 +2409,7 @@ img{
 .fluid-section-one .content-column .inner-column{
 	position:relative;
 	max-width:800px;
-	padding:115px 15px 60px 100px;
+	padding:35px 15px 60px 100px;
 }
 
 .fluid-section-one .content-column .inner-column .sec-title{
@@ -4023,7 +4024,8 @@ img{
 }
 
 .pricing-table .table-footer{
-	position: relative;
+	position: absolute;
+    bottom: 40px;
 }
 
 .pricing-table .theme-btn{
@@ -4485,6 +4487,7 @@ img{
 .news-block .image-box{
 	position: relative;
 	overflow: hidden;
+	min-height: 28rem;
 }
 
 .news-block .image-box::before {
@@ -6713,6 +6716,7 @@ img{
 	background-repeat:no-repeat;
 	background-position:center center;
 	background-size: cover;
+	background: #7fa40a14
 }
 
 .main-footer .widgets-section{
@@ -9228,4 +9232,9 @@ img{
 		align-items: center;
 		gap: 2rem;
 	}
+  }
+  .serviceMouseOver:hover{
+	transform: scale(1.05, 1.05);
+	cursor: pointer;
+	transition: all 0.35s ease-in-out;;
   }
